@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DINESH</title>
+</head>
+<style>
+*{
+    color: white;
+}
+body{
+    background-color: rgb(73, 73, 73);
+    overflow: hidden;
+}
+
+
+.nav{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    gap: 2%;
+
+}@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.nav p{
+    position: absolute;
+    left: 15%;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: cursive;
+    text-decoration: overline;
+    flex: 0 0 30%;
+}
+.im{
+    padding-top: 2%;
+    background-image: url("logo2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(10px 0px 10px lightyellow); 
+    position:relative;
+    right: -18%;
+    padding: 300px;
+    padding-right: 400px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+    justify-content: center;
+    right: -25%;
+    padding: 20px;
+
+
+}
+.nav a:hover{
+    background-color:lightyellow;
+    filter: drop-shadow(0px 0px 100px lightyellow); 
+
+    color: black;
+    border-radius: 10%;
+}
+
+.bb p{
+    color:white;
+    font-size: 30px;
+    font-style:italic;
+}
+.box
+{
+    display: flex;
+    padding-left: 3%;
+    gap: 4%;
+    padding-top: 2%;
+}
+.imm{
+    padding: 200px;
+    padding-bottom: 300px;
+    background-color: aqua;
+    
+}
+h1{
+    font-size: 50px;
+    filter: drop-shadow(0px 0px 10px rgb(255, 225, 224)); 
+    text-align: center;
+    animation: slideInLeft 1s linear;
+
+
+}
+.ff{
+    display: flex;
+    gap: 4%;
+    padding-left: 3%;
+    animation: slideInLeft 1s linear;
+}
+.card{
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: black;
+    border: 2px double lightyellow;
+    border-radius: 50px;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px lightyellow;
+    background-color: black;
+    color: white;   
+    animation: glow 1s linear infinite;
+
+}
+#pp
+{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    filter: drop-shadow(0px 0px 10px rgb(255, 225, 224)); 
+
+}
+p{
+    font-size: 20px;
+}
+.ppp{
+    max-width: 400px;
+
+}
+#qq{
+    background-color: lightyellow;
+    color: black;
+    border-radius: 10px;
+}
+@keyframes glow {
+    0%{
+        filter: drop-shadow(0px 0px 10px rgb(255, 225, 224)); 
+    }50%{
+        filter: drop-shadow(0px 0px 10px rgb(145, 234, 216)); 
+
+    }75%{
+        filter: drop-shadow(0px 0px 10px rgb(218, 106, 236)); 
+
+    }100%{
+        filter: drop-shadow(0px 0px 10px rgb(237, 175, 89)); 
+
+    }
+
+}
+
+</style>
+<body>
+    
+
+            <div class="nav">
+                <p>Portfolio</p>
+                <a href="index.html">HOME</a>
+                <a id="qq" href="q.html" >QUALIFICATIONS</a>
+                <a   href="p.html" >PROJECTS</a>
+                <a href="a.html">CERTIFICATIONS</a>
+            </div>
+        </div>
+        <h1>QUALIFICATION</h1>
+    <div class="ff">
+        <div class="card">
+            <p id="pp">SSLC</p>
+            <div class="ppp">
+                <img src="ooph5ekh.bmp" alt="" height="200" width="400">
+                <p><b>School Name: </b>Sri Saraswathi Vidhayalaya Matric Higher Secondary School</p>
+                <p><b>Year: </b>2019</p>
+                <p><b>Percentage: </b>91%</p>
+            </div>
+            
+        </div>
+        <div class="card">
+            <p id="pp">HSC</p>
+            <div class="ppp">
+                <img src="s9r8kusd.bmp" alt="" height="200" width="400">
+                <p><b>School Name: </b>Sri Saraswathi Vidhayalaya Matric Higher Secondary School</p>
+                <p><b>Year: </b>2021</p>
+                <p><b>Percentage: </b>91%</p>
+            </div>
+        </div>
+        <div class="card" style="padding: 20px; padding-top: 0px;
+        padding-bottom: 0px;">
+            <p id="pp">COLLEGE</p>
+            <div class="ppp">
+                <img src="npvin396.bmp" alt="" height="200" width="370">
+
+            <p><b>College Name: </b>Nationl Engineering College</p>
+            <p><b>Stream: </b>B.E CSE</p>
+            <p><b>Year: </b>2021-2025</p>
+            <p><b>CGPA: </b>8.3</p>
+            </div>
+        </div>
+    </div>
+</html>

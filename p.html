@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DINESH</title>
+</head>
+<style>   
+*{
+    color: white;
+}
+body{
+    background-color: rgb(73, 73, 73);
+    overflow: hidden    ;
+}
+.nav{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    gap: 2%;
+
+
+}
+.nav p{
+    position: absolute;
+    left: 15%;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: cursive;
+    text-decoration: overline;
+    flex: 0 0 30%;
+}
+.im{
+    padding-top: 2%;
+    background-image: url("logo2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(10px 0px 10px lightyellow); 
+    position:relative;
+    right: -18%;
+    padding: 300px;
+    padding-right: 400px;
+    
+}
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(+100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes up {
+    0% {
+      transform: translateY(+100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes down {
+    0% {
+      transform: translateY(-300%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+    justify-content: center;
+    right: -25%;
+    gap: 2%;
+    padding: 20px;
+
+
+}
+.nav a:hover{
+    background-color:lightyellow;
+    filter: drop-shadow(0px 0px 100px lightyellow); 
+
+    color: black;
+    border-radius: 10%;
+}
+.bb{
+    
+}
+.bb p{
+    color:white;
+    font-size: 30px;
+    font-style:italic;
+}
+.box
+{
+    display: flex;
+    padding-left: 3%;
+    gap: 4%;
+    padding-top: 2%;
+}
+.imm{
+    padding: 200px;
+    padding-bottom: 300px;
+    
+}
+h1{
+    font-size: 50px;
+    filter: drop-shadow(0px 0px 10px rgb(255, 225, 224)); 
+    align-items: center;
+        animation: slideInLeft 1s;
+
+    text-align: center;
+
+}
+.ff{
+    display: flex;
+    gap: 4%;
+    padding-left: 1%;
+    animation: slideInLeft 1s;
+}
+.card{
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    border: 2px double lightyellow;
+    border-radius: 50px;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+    animation: glow 1s linear infinite;
+
+}
+#pp
+{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    filter: drop-shadow(0px 0px 10px rgb(255, 225, 224)); 
+
+}
+p{
+    font-size: 20px;
+}
+.ppp{
+    max-width: 400px;
+
+}
+@keyframes glow {
+    0%{
+        filter: drop-shadow(0px 0px 10px rgb(255, 225, 224)); 
+    }50%{
+        filter: drop-shadow(0px 0px 10px rgb(145, 234, 216)); 
+
+    }75%{
+        filter: drop-shadow(0px 0px 10px rgb(218, 106, 236)); 
+
+    }100%{
+        filter: drop-shadow(0px 0px 10px rgb(237, 175, 89)); 
+
+    }
+}
+#qq{
+    background-color: lightyellow;
+    color: black;
+    border-radius: 10%;
+
+}
+
+</style>
+<body>
+            <div class="nav">
+                <p>Portfolio</p>
+                <a href="index.html">HOME</a>
+                <a href="q.html" >QUALIFICATIONS</a>
+                <a id="qq" href="p.html" >PROJECTS</a>
+                <a href="a.html">CERTIFICATIONS</a>
+            </div>
+        </div>
+        <h1>PROJECTS </h1>
+    <div class="ff">
+        <div class="card">
+            <p id="pp">E-Commerce Site</p>
+            <div class="ppp">
+                <img src="rsnfvssy.bmp" alt="" height="200" width="400">
+                <p><b>Technologies Used:</b>HTML, CSS, JSP</p>
+            </div>
+            
+        </div>
+        <div class="card">
+            <p id="pp">CHATTING APP</p>
+            <div class="ppp">
+                <img src="uhj8a9yq.bmp" alt="" height="200" width="400">
+                <p><b>Technologies Used:</b>JAVA</p>
+            </div>
+        </div>
+        <div class="card" style="padding: 20px; padding-top: 50px;
+        padding-bottom: 50px;">
+            <p id="pp">INSURANCE WEB</p>
+            <div class="ppp">
+                <img src="7d3j1kn9.bmp" alt="" height="200" width="400">
+                <p><b>Technologies Used:</b> JS, BLOCKCHAIN</p>
+            </div>
+        </div>
+    </div>   
+</html>
+ 
