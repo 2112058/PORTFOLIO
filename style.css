@@ -14,6 +14,7 @@ body{
 }
 a :hover{
     background-color: black;
+    border-radius:10px;
 }
 .nav{
     color: white;
